@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pest="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/bottom_tab"
+            android:drawableTop="@drawable/footer_home_ico"
+            android:text="首页"
+            android:textColor="@drawable/footer_textcolor"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_course"
+            style="@style/bottom_tab"
+            android:drawableTop="@drawable/footer_course_ioc"
+            android:text="课程"
+            android:textColor="@drawable/footer_textcolor" />
+
+        <RadioButton
+            android:id="@+id/rb_direct_seeding"
+            style="@style/bottom_tab"
+            android:drawableTop="@drawable/footer_direct_ioc"
+            android:text="直播"
+            android:textColor="@drawable/footer_textcolor" />
+
+    </RadioGroup>
+
+</LinearLayout>
